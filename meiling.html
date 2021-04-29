@@ -3,6 +3,47 @@
 <head>
   <title>ビレイのライフ</title>
   <meta charset="utf-8">
+  <style>
+body{
+  margin:0px;
+}
+a{
+  color:black;
+  text-decoration:none;
+}
+
+h1{
+  font-size:45px;
+  text-align: center;
+  border-bottom:3px solid gray;
+  margin:0px;
+  padding:5px;
+}
+ol{
+  border-right:3px gray solid;
+  width:110px;
+  margin:0px;
+  padding:20px;
+  padding-left: 80px;
+  padding-top: 48px;
+}
+ #grid{
+   display:grid;
+   grid-template-columns: 300px 1fr;
+ }
+ @media(max-width:800px){
+   #grid{
+     display:block;
+   }
+   ol{
+    border-right:none;
+   }
+   h1{
+    border-bottom:none;
+   }
+ 
+ } 
+  </style>
 </head>
 
 <body>
